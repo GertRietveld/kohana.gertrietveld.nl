@@ -14,12 +14,12 @@ Route::set('about', 'about')->defaults(array(
 		'action'     => 'index'
 	));
 
-Route::set('running', 'running_from_camera')->defaults(array(
+Route::set('running', 'running-from-camera')->defaults(array(
 		'controller' => 'running',
 		'action'     => 'index'
 	));
 
-Route::set('planet', 'planet_crooswijk')->defaults(array(
+Route::set('planet', 'planet-crooswijk')->defaults(array(
 		'controller' => 'planet',
 		'action'     => 'index'
 	));

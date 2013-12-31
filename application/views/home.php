@@ -86,8 +86,8 @@
 <body>
     <h1 id="title">Gert Rietveld</h1>
     <ul id="menu"><li><a href="/work/">work</a></li>    
-<li><a href="/running_from_camera/">running from camera</a></li>
-<li><a href="/planet_crooswijk/">planet crooswijk</a></li>
+<li><a href="/running-from-camera/">running from camera</a></li>
+<li><a href="/planet-crooswijk/">planet crooswijk</a></li>
 <li><a href="/about/">about</a></li>
 <li><a href="/contact/">contact</a></li>
     
