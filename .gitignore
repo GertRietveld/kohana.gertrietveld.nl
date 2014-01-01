@@ -4,3 +4,4 @@
 /assets/fonts/
 /application/config/database.php
 /application/config/database.live.php
+/application/logs/

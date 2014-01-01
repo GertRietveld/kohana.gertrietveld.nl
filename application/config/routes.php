@@ -1,12 +1,14 @@
 <?php defined('SYSPATH') or die('No direct script access.');
-/**************************************************************
- * Default Router
- **************************************************************/
 
 
-Route::set('work', 'work(/<id>)')->defaults(array(
-		'controller' => 'work',
+Route::set('works', 'work')->defaults(array(
+		'controller' => 'works',
 		'action'     => 'index'
+	));
+
+Route::set('work', 'work/<id>')->defaults(array(
+		'controller' => 'works',
+		'action'     => 'view'
 	));
 
 Route::set('about', 'about')->defaults(array(
@@ -21,6 +23,11 @@ Route::set('running', 'running-from-camera')->defaults(array(
 
 Route::set('planet', 'planet-crooswijk')->defaults(array(
 		'controller' => 'planet',
+		'action'     => 'index'
+	));
+
+Route::set('contact', 'contact')->defaults(array(
+		'controller' => 'contact',
 		'action'     => 'index'
 	));
 
